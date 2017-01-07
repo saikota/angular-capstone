@@ -1,7 +1,7 @@
 (function(){
-  
+
   var lunchApp=angular.module('lunchApp',[]);
-  lunchApp.controller('lunchController',LunchCheckController);
+  var lunchController=lunchApp.controller('lunchController',LunchCheckController);
   lunchController.$inject=['$scope'];
   function LunchCheckController($scope){
     $scope.dishes="";

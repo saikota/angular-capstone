@@ -6,7 +6,7 @@
   shoppingListCheckOff.service('ShoppingListCheckOffService',ShoppingListCheckOffService);
   AlreadyBoughtController.$inject = ['ShoppingListCheckOffService','$scope'];
   ToBuyController.$inject = ['ShoppingListCheckOffService'];
-  
+
   function ToBuyController(shoppingListService){
     var toBuy=this;
     toBuy.showErrMsg=false;
